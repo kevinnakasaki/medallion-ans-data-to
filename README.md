@@ -99,4 +99,4 @@ make run-flow
 | MINIO_SECRET_KEY | - | Secret key do MinIO |
 | DATA_SAMPLE_URL | - | URL do arquivo (.zip) a ser processado |
 | PREFECT_API_URL | `http://prefect-server:4200/api` | URL da API do Prefect |
-| PREFECT_API_DATABASE_CONNECTION_URL | `postgresql+asyncpg://postgres:prefect@prefect-db:5432/prefect` | URL de conexão com o banco de dados do Prefect |
+| PREFECT_API_DATABASE_CONNECTION_URL | `postgresql+asyncpg://prefect:prefect@prefect-db:5432/prefect` | URL de conexão com o banco de dados do Prefect |
