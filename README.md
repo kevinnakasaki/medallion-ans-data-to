@@ -100,3 +100,9 @@ make run-flow
 | DATA_SAMPLE_URL | - | URL do arquivo (.zip) a ser processado |
 | PREFECT_API_URL | `http://prefect-server:4200/api` | URL da API do Prefect |
 | PREFECT_API_DATABASE_CONNECTION_URL | `postgresql+asyncpg://prefect:prefect@prefect-db:5432/prefect` | URL de conexão com o banco de dados do Prefect |
+
+---
+
+## Análise ad-hoc sobre os dados evoluídos
+
+A análise sobre os dados evoluídos até a camada `gold` pode ser encontrada no notebook `analise.ipynb`. Os resultados da análise podem ser visualizados [aqui](notebooks/adhoc_results/gold_analysis.md).
