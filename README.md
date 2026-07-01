@@ -105,4 +105,4 @@ make run-flow
 
 ## Análise ad-hoc sobre os dados evoluídos
 
-A análise sobre os dados evoluídos até a camada `gold` pode ser encontrada no notebook `analise.ipynb`. Os resultados da análise podem ser visualizados [aqui](notebooks/adhoc_results/gold_analysis.md).
+A análise sobre os dados evoluídos até a camada `gold` pode ser encontrada no [Jupyter notebook](notebooks/gold_analysis.ipynb).
